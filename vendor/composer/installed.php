@@ -1,24 +1,24 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => 'dev-main',
-    'version' => 'dev-main',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => '979623068943e05aecc1ef9c292bce2f2deb433d',
-    'name' => 'chucksplayground/wpdatasearch',
+    'reference' => '929c3fbad633a783c5574bfbfd206c2c146f4e73',
+    'name' => 'chucksplayground/wp-plugin-skeleton',
   ),
   'versions' => 
   array (
-    'chucksplayground/wpdatasearch' => 
+    'chucksplayground/wp-plugin-skeleton' => 
     array (
-      'pretty_version' => 'dev-main',
-      'version' => 'dev-main',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => '979623068943e05aecc1ef9c292bce2f2deb433d',
+      'reference' => '929c3fbad633a783c5574bfbfd206c2c146f4e73',
     ),
   ),
 );

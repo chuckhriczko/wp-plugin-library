@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'WPDataSearch\\' => array($baseDir . '/app'),
+    'WPPluginSkeleton\\' => array($baseDir . '/app'),
 );

@@ -9,12 +9,12 @@ class ComposerStaticInite324f2222db8bb3af0c28a7919205c57
     public static $prefixLengthsPsr4 = array (
         'W' => 
         array (
-            'WPDataSearch\\' => 13,
+            'WPPluginSkeleton\\' => 17,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'WPDataSearch\\' => 
+        'WPPluginSkeleton\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
         ),
@@ -22,12 +22,12 @@ class ComposerStaticInite324f2222db8bb3af0c28a7919205c57
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'WPDataSearch\\Admin\\Columns' => __DIR__ . '/../..' . '/app/Admin/Columns.php',
-        'WPDataSearch\\Plugin\\Core' => __DIR__ . '/../..' . '/app/Plugin/Core.php',
-        'WPDataSearch\\PostTypes\\PostType' => __DIR__ . '/../..' . '/app/PostTypes/PostType.php',
-        'WPDataSearch\\PostTypes\\PostTypeInterface' => __DIR__ . '/../..' . '/app/PostTypes/PostTypeInterface.php',
-        'WPDataSearch\\Taxonomies\\Taxonomy' => __DIR__ . '/../..' . '/app/Taxonomies/Taxonomy.php',
-        'WPDataSearch\\Taxonomies\\TaxonomyInterface' => __DIR__ . '/../..' . '/app/Taxonomies/TaxonomyInterface.php',
+        'WPPluginSkeleton\\Admin\\Columns' => __DIR__ . '/../..' . '/app/Admin/Columns.php',
+        'WPPluginSkeleton\\Plugin\\Core' => __DIR__ . '/../..' . '/app/Plugin/Core.php',
+        'WPPluginSkeleton\\PostTypes\\PostType' => __DIR__ . '/../..' . '/app/PostTypes/PostType.php',
+        'WPPluginSkeleton\\PostTypes\\PostTypeInterface' => __DIR__ . '/../..' . '/app/PostTypes/PostTypeInterface.php',
+        'WPPluginSkeleton\\Taxonomies\\Taxonomy' => __DIR__ . '/../..' . '/app/Taxonomies/Taxonomy.php',
+        'WPPluginSkeleton\\Taxonomies\\TaxonomyInterface' => __DIR__ . '/../..' . '/app/Taxonomies/TaxonomyInterface.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
