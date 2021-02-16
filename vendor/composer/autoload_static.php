@@ -4,17 +4,17 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit3c349fcbcc70f6843770115155850ad8
+class ComposerStaticInite324f2222db8bb3af0c28a7919205c57
 {
     public static $prefixLengthsPsr4 = array (
         'W' => 
         array (
-            'WPPlugin\\' => 9,
+            'WPDataSearch\\' => 13,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'WPPlugin\\' => 
+        'WPDataSearch\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
         ),
@@ -22,14 +22,20 @@ class ComposerStaticInit3c349fcbcc70f6843770115155850ad8
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'WPDataSearch\\Admin\\Columns' => __DIR__ . '/../..' . '/app/Admin/Columns.php',
+        'WPDataSearch\\Plugin\\Core' => __DIR__ . '/../..' . '/app/Plugin/Core.php',
+        'WPDataSearch\\PostTypes\\PostType' => __DIR__ . '/../..' . '/app/PostTypes/PostType.php',
+        'WPDataSearch\\PostTypes\\PostTypeInterface' => __DIR__ . '/../..' . '/app/PostTypes/PostTypeInterface.php',
+        'WPDataSearch\\Taxonomies\\Taxonomy' => __DIR__ . '/../..' . '/app/Taxonomies/Taxonomy.php',
+        'WPDataSearch\\Taxonomies\\TaxonomyInterface' => __DIR__ . '/../..' . '/app/Taxonomies/TaxonomyInterface.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit3c349fcbcc70f6843770115155850ad8::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit3c349fcbcc70f6843770115155850ad8::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit3c349fcbcc70f6843770115155850ad8::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInite324f2222db8bb3af0c28a7919205c57::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInite324f2222db8bb3af0c28a7919205c57::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInite324f2222db8bb3af0c28a7919205c57::$classMap;
 
         }, null, ClassLoader::class);
     }

@@ -3,10 +3,9 @@
  * Obligatory WordPress plugin information
  ******************************************************************************/
 /*
-Plugin Name: Wordpress Plugin Skeleton
+Plugin Name: WPPluginSkeleton
 Plugin URI: https://www.chucksplayground.com
-Description: Wordpress plugin skeleton that uses composer and features such as 
-PHP namespaces, typed functions and interfaces
+Description: Wordpress plugin skeleton using namespaces and other PHP 7.4+ features
 Version: 1.0
 Author: Chuck Hriczko
 Author URI: https://www.chucksplayground.com
@@ -15,8 +14,5 @@ License: GPLv2
 //Include our autoload file
 require 'vendor/autoload.php';
 
-//Import our core namespace
-use \WPPlugin\Plugin\Core;
-
-///Initialize our plugin
-Core::init();
+//Initialize our plugin
+$wpdsCore = new \WPPluginSkeleton\Plugin\Core();

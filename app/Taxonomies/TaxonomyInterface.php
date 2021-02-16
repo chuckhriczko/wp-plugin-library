@@ -1,6 +1,6 @@
 <?php
 //Namespace our code for our application
-namespace WPPlugin\Taxonomies;
+namespace WPPluginSkeleton\Taxonomies;
 
 //Instantiate our class
 interface TaxonomyInterface {

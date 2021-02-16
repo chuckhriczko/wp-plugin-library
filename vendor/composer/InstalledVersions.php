@@ -24,24 +24,24 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
-    'name' => 'chucksplayground/wp-plugin-skeleton',
+    'reference' => '979623068943e05aecc1ef9c292bce2f2deb433d',
+    'name' => 'chucksplayground/wpdatasearch',
   ),
   'versions' => 
   array (
-    'chucksplayground/wp-plugin-skeleton' => 
+    'chucksplayground/wpdatasearch' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '979623068943e05aecc1ef9c292bce2f2deb433d',
     ),
   ),
 );

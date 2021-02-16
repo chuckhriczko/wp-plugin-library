@@ -1,6 +1,6 @@
 {
     "name": "chucksplayground/wp-plugin-skeleton",
-    "description": "Wordpress plugin skeleton using composer autoloading, PHP namespaces and interfaces",
+    "description": "Wordpress plugin skeleton using namespaces and other PHP 7.4+ features",
     "type": "wordpress-plugin",
     "require": {
         "php": ">=7.4"
@@ -13,6 +13,6 @@
         }
     ],
     "autoload": {
-    	"psr-4": { "WPPlugin\\": "app/" }
+    	"psr-4": { "WPPluginSkeleton\\": "app/" }
     }
 }
