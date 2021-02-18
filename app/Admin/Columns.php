@@ -1,6 +1,6 @@
 <?php
 //Namespace our code for our application
-namespace WPPluginSkeleton\Admin;
+namespace cPRODS\WPPlugin\Admin;
 
 //Instantiate our class
 class Columns {

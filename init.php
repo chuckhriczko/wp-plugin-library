@@ -3,7 +3,7 @@
  * Obligatory WordPress plugin information
  ******************************************************************************/
 /*
-Plugin Name: WPPluginSkeleton
+Plugin Name: cPRODS\WPPlugin
 Plugin URI: https://www.chucksplayground.com
 Description: Wordpress plugin skeleton using namespaces and other PHP 7.4+ features
 Version: 1.0
@@ -15,4 +15,4 @@ License: GPLv2
 require 'vendor/autoload.php';
 
 //Initialize our plugin
-$wpdsCore = new \WPPluginSkeleton\Plugin\Core();
+$wpdsCore = new \cPRODS\WPPlugin\Plugin\Core();

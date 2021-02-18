@@ -1,15 +1,15 @@
 <?php
 //Namespace our code for our application
-namespace WPPluginSkeleton\Plugin;
+namespace cPRODS\WPPlugin\Plugin;
 
 //Include our PostTypes namespace
-use \WPPluginSkeleton\PostTypes\PostType as PostType;
+use \cPRODS\WPPlugin\PostTypes\PostType as PostType;
 
 //Include our taxonomies namespace
-use \WPPluginSkeleton\Taxonomies\Taxonomy as Taxonomy;
+use \cPRODS\WPPlugin\Taxonomies\Taxonomy as Taxonomy;
 
 //Include our taxonomies namespace
-use \WPPluginSkeleton\Admin\Columns as Columns;
+use \cPRODS\WPPlugin\Admin\Columns as Columns;
 
 //Instantiate our class
 class Core {
