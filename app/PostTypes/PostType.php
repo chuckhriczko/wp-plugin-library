@@ -1,6 +1,6 @@
 <?php
 //Namespace our code for our application
-namespace cPRODS\WPPlugin\PostTypes;
+namespace CPRODS\WPPlugin\PostTypes;
 
 
 //Instantiate our class

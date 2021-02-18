@@ -1,6 +1,6 @@
 <?php
 //Namespace our code for our application
-namespace WPPluginSkeleton\Taxonomies;
+namespace CPRODS\WPPluginSkeleton\Taxonomies;
 
 
 //Instantiate our class
