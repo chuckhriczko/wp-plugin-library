@@ -3,6 +3,7 @@
     "description": 	"Wordpress plugin library using namespaces and other PHP 7.4+ features",
     "type": 		"wordpress-library",
     "license": 		"MIT",
+    "version":       "1.0",
     "require": {
         "php": 		">=7.4"
     },
