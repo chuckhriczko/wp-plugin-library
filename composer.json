@@ -1,18 +1,19 @@
 {
-    "name": "chucksplayground/wp-plugin-skeleton",
-    "description": "Wordpress plugin skeleton using namespaces and other PHP 7.4+ features",
-    "type": "wordpress-plugin",
+    "name": 		"chucksplayground/wp-plugin-skeleton",
+    "description": 	"Wordpress plugin skeleton using namespaces and other PHP 7.4+ features",
+    "type": 		"wordpress-plugin",
+    "license": 		"MIT",
     "require": {
-        "php": ">=7.4"
+        "php": 		">=7.4"
     },
     "authors": [
         {
-            "name": "Chuck Hriczko",
-            "email": "chuckhriczko@gmail.com",
+            "name": 	"Chuck Hriczko",
+            "email": 	"chuckhriczko@gmail.com",
             "homepage": "https://www.chucksplayground.com"
         }
     ],
     "autoload": {
-    	"psr-4": { "\\cPRODS\\WPPlugin\\": "app/" }
+    	"psr-4": { 	"\\cPRODS\\WPPlugin\\": "app/" }
     }
 }
