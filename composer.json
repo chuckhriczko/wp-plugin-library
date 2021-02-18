@@ -1,7 +1,7 @@
 {
-    "name": 		"cprods/wp-plugin-library",
+    "name": 		"chucksplayground/wp-plugin-library",
     "description": 	"Wordpress plugin library using namespaces and other PHP 7.4+ features",
-    "type": 		"wordpress-plugin",
+    "type": 		"wordpress-library",
     "license": 		"MIT",
     "require": {
         "php": 		">=7.4"
